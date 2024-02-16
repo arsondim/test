@@ -12,6 +12,7 @@
   "dependencies": {
     "@heroicons/vue": "^2.1.1",
     "@nuxt/ui": "^2.13.0",
+    "@nuxtjs/ngrok": "^2.0.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "autoprefixer": "^10.4.17",
     "nuxt": "^3.10.1",

@@ -14,7 +14,8 @@ const { data } = await useFetch('/api/currency/PLN')
     <p>Current route: {{ route.path }}</p>
 
    
-    <div class="font-bold py-4">{{data.value}}</div>
+    <div class="font-bold py-2">{{data}}</div>
+
 
 
   </div>
