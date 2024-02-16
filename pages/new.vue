@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
 const route = useRoute()
+const { data } = useFetch('https://fakestoreapi.com/products/')
 
-const { data } = await useFetch('https://fakestoreapi.com/products/')
 
 </script>
 
@@ -13,7 +13,7 @@ const { data } = await useFetch('https://fakestoreapi.com/products/')
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nemo expedita eos dolor, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nemo expedita eos dolor, perferendis distinctio ex quibusdam magnam aliquid tempore labore accusamus minus? Odio porro placeat maxime cumque a alias!</p>
     <p>Current route: {{ route.path }}</p>
 
-   
+    
     <div class="font-bold py-2">{{data}}</div>
 
 
