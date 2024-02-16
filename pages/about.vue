@@ -2,7 +2,7 @@
 import { useRoute } from 'vue-router';
 const route = useRoute()
 
-const { data } = await useFetch('https://fakestoreapi.com/products/')
+const { data } = await useFetch('/api/currency/PLN')
 
 </script>
 
@@ -10,7 +10,7 @@ const { data } = await useFetch('https://fakestoreapi.com/products/')
 
   <div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nemo expedita eos dolor, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nemo expedita eos dolor, perferendis distinctio ex quibusdam magnam aliquid tempore labore accusamus minus? Odio porro placeat maxime cumque a alias!</p>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nemo expedita eos dolor, perferendis distinctio ex quibusdam magnam aliquid tempore labore accusamus minus? Odio porro placeat maxime cumque a alias!</p>
     <p>Current route: {{ route.path }}</p>
 
    
